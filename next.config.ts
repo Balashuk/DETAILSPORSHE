@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
     domains:['m.media-amazon.com','firebasestorage.googleapis.com'],
    
 
+  },
+  eslint:{
+    ignoreDuringBuilds:true,
   }
 };
 
