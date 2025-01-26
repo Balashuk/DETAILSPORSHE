@@ -40,7 +40,10 @@
   ],
   "exclude": [
     "node_modules",
-    ".next",
-    "pages/api/stripe-webhook.ts"
+    "pages/api/stripe-webhook.ts",
+    ".next/types/app/api/product/[id]/route.ts",
+    ".next/types/app/order/[orderId]/page.ts",
+    ".next/types/app/page.ts",
+    ".next/types/app/product/[productId]/page.ts"
   ]
 }
